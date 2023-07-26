@@ -1,0 +1,15 @@
+.yourtitle {
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+.yourtitle h1{
+    font-size: 35px;
+}
+.yourtitle p{
+    padding: 0 91px;
+    color: #a0aab7;
+}
+.yourtitle .titles p{
+    padding: 0px;
+}

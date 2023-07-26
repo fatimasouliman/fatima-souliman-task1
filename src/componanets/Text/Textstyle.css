@@ -1,0 +1,17 @@
+.text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text h1{
+    color: black;
+    font-size: 50px
+}
+.text h2{
+    color: rgb(6 170 244);
+    font-size: 35px;
+}
+.text p{
+    font-size: 16px;
+}

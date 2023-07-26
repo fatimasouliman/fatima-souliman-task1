@@ -1,0 +1,32 @@
+.name-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.name-logo h1{
+    font-size: 30px;
+}
+.name-logo .logo {
+    display: flex;
+    align-items: flex-end;
+}
+.name-logo .logo .rectangular{
+    width: 5px;
+    border: 3px solid rgb(6 170 244);
+}
+.name-logo .logo .small{
+    height: 10px;
+    border-right: none;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.name-logo .logo .mid{
+    height: 14px;
+    border-top-left-radius: 2px;
+    border-right: none;
+}
+.name-logo .logo .big{
+    height: 20px;
+    border-radius: 2px;
+    border-bottom-left-radius: 0px;
+}
