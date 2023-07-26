@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/fatima-souliman-task1/static/css/main.08bb2620.css",
+    "main.js": "/fatima-souliman-task1/static/js/main.f6e65b3c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/fatima-souliman-task1/static/js/787.28cb0dcd.chunk.js",
+    "static/media/img-1.PNG": "/fatima-souliman-task1/static/media/img-1.aac7df2b5c397b475a3c.PNG",
+    "static/media/img-2.PNG": "/fatima-souliman-task1/static/media/img-2.093da0043e8089fc5713.PNG",
+    "static/media/img-3.PNG": "/fatima-souliman-task1/static/media/img-3.73022c6d35cabf3da9bc.PNG",
+    "index.html": "/fatima-souliman-task1/index.html",
+    "main.08bb2620.css.map": "/fatima-souliman-task1/static/css/main.08bb2620.css.map",
+    "main.f6e65b3c.js.map": "/fatima-souliman-task1/static/js/main.f6e65b3c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/fatima-souliman-task1/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08bb2620.css",
+    "static/js/main.f6e65b3c.js"
+  ]
+}
