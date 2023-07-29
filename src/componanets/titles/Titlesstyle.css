@@ -1,4 +1,5 @@
 @media (max-width: 700px){
+
     .titles{
         flex-direction: column;
     }
@@ -6,15 +7,19 @@
     .titles .text {
         width: 100%!important;
     }
-    
+
 }
+
 .titles{
     display: flex;
     width: 80%;
     margin: auto;
+    margin-left: 10%;
     margin-top: 100px;
+    gap: 10px;
 }
+
 .titles .text{
-    width: 40%;
+    width: 100%;
     margin: auto;
 }

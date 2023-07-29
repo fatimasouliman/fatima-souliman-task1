@@ -1,6 +1,7 @@
 import './Titlesstyle.css';
+import Text from '../Text/Text';
 import Img from '../image/Img';
-import Text from './../Text/Text';
+
 function Titles({image}) {
     const text2 = [
         {
@@ -10,8 +11,8 @@ function Titles({image}) {
     ]
   return (
     <div className='titles'>
-        <Text data={text2} />
-        <Img image={image} />
+        <Text data={text2} move="fade-right"/>
+        <Img image={image} move="fade-left"/>
     </div>
   )
 }

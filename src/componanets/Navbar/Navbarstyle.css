@@ -1,3 +1,12 @@
+@media (max-width:700px){
+    .nav-bar h1{
+        font-size: 20px;
+    }
+    .nav-bar li{
+        font-size: 16px;
+        padding-right: 10px;
+    }
+}
 .nav-bar {
     width: 80%;
     margin: auto;

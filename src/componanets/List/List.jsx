@@ -15,4 +15,4 @@ function List({list}) {
   )
 }
 
-export default List
+export default List;

@@ -12,7 +12,7 @@ function Hero() {
   ];
   return (
     <div className="hero">
-        <Text data={data} />
+        <Text data={data} move="fade-down"/>
         <Button btn={btn} />
     </div>
   )

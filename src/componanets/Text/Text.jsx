@@ -1,9 +1,15 @@
 import './Textstyle.css';
+import {useEffect} from 'react';
+import AOS from 'aos'
+import '../../../node_modules/aos/dist/aos.css';
 
-function Text({data}) {
-    console.log(data);
+function Text({data , move}) {
+    useEffect(() => {
+        AOS.init({duration: 2000});
+    }, []);
+    
   return (
-    <div className='text'>
+    <div className='text' data-aos={move}>
         {
             data.map(text =>
                 <>

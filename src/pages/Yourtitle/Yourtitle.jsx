@@ -1,11 +1,11 @@
 import Text from "../../componanets/Text/Text";
-import Img from "../../componanets/image/Img";
 import Titles from "../../componanets/titles/Titles";
 import './Yourstyle.css';
 import img1 from './../../images/img-1.PNG';
 import img2 from './../../images/img-2.PNG';
 import img3 from './../../images/img-3.PNG';
 import Start from "../../componanets/Start/Start";
+import Img from "../../componanets/image/Img";
 
 function Yourtitle() {
     const text1 = [
@@ -20,8 +20,8 @@ function Yourtitle() {
         <Text data={text1} />
         <Titles image={img1}/>
         <div className="titles">
-            <Img image={img2} />
-            <Text data={text1} />
+            <Img image={img2} move="fade-right"/>
+            <Text data={text1} move="fade-left"/>
         </div>
         <Titles image={img3}/>
         <Start />
