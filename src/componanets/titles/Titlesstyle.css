@@ -18,7 +18,9 @@
     margin-top: 100px;
     gap: 10px;
 }
-
+.reverse{
+    flex-direction: row-reverse;
+}
 .titles .text{
     width: 100%;
     margin: auto;

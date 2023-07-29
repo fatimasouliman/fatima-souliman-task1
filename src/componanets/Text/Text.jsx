@@ -4,6 +4,7 @@ import AOS from 'aos'
 import '../../../node_modules/aos/dist/aos.css';
 
 function Text({data , move}) {
+    
     useEffect(() => {
         AOS.init({duration: 2000});
     }, []);

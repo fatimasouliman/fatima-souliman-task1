@@ -4,4 +4,10 @@
     gap: 15px;
     font-weight: 600;
     font-size: 20px;
+    transition: 0.7s ease;
+}
+.list li:hover{
+    cursor: pointer;
+    color: rgb(6 170 244);
+    
 }

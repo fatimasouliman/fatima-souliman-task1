@@ -2,7 +2,7 @@ import './Titlesstyle.css';
 import Text from '../Text/Text';
 import Img from '../image/Img';
 
-function Titles({image}) {
+function Titles({image , reverse}) {
     const text2 = [
         {
             title: "Your title here",
@@ -10,9 +10,9 @@ function Titles({image}) {
         }
     ]
   return (
-    <div className='titles'>
-        <Text data={text2} move="fade-right"/>
-        <Img image={image} move="fade-left"/>
+    <div className={ (reverse) ? "titles reverse" : "titles" }>
+        <Text data={text2} move= { (reverse) ? "fade-left" : "fade-right" } />
+        <Img image={image} move= { (reverse) ? "fade-right" : "fade-left" }/>
     </div>
   )
 }

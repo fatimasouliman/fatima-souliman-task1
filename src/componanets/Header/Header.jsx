@@ -4,7 +4,7 @@ import './Headerstyle.css';
 function Header() {
     const list=[
         'Github',
-        'sigin in'
+        'sign in'
     ]
   return (
     <header className="header">

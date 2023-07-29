@@ -18,12 +18,9 @@ function Yourtitle() {
   return (
     <div className="yourtitle">
         <Text data={text1} />
-        <Titles image={img1}/>
-        <div className="titles">
-            <Img image={img2} move="fade-right"/>
-            <Text data={text1} move="fade-left"/>
-        </div>
-        <Titles image={img3}/>
+        <Titles image={img1} reverse={false}/>
+        <Titles image={img2} reverse={true}/>
+        <Titles image={img3} reverse={false}/>
         <Start />
     </div>
   )
