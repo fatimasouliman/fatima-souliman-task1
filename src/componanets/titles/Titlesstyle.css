@@ -13,6 +13,7 @@
 .titles{
     display: flex;
     width: 80%;
+    flex-wrap: wrap;
     margin: auto;
     margin-left: 10%;
     margin-top: 100px;
